@@ -1,3 +1,8 @@
+<!-- ideas for future:
+ -photos of previous work
+ -
+ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +11,14 @@
     <title>Business name</title>
 </head>
 <body>
-    <navbar>
+    <nav>
         <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Contact</li>
-            <li>About</li>
+            <li><a>Home</a></li>
+            <li><a>Services</a></li>
+            <li><a>Contact</a></li>
+            <li><a>About</a></li>
         </ul>
-    </navbar>
+    </nav>
 
     <h1>Business name</h1>
 
@@ -21,29 +26,33 @@
 
     <p>short description</p>
 
-    <div class="services-blurb">
-        <img src="" alt="">
-
-        <h2>Our Services</h2>
-
-        <p>description of services - what, where, how</p>
+    <div class="blurb services-blurb">
+        <img src="assets/samplephoto.jpg" alt="service photo" id="service-photo">
+        
+        <div class="service-blurb-text">
+            <h2>Our Services</h2>
+            <p>description of services - what, where, how</p>
+        </div>
     </div>
 
-    <div class="contact-blurb">
-        <h2>Contact Us</h2>
 
-        <p>Google form for contact? or some sort of scheduling thing with your schedule</p>
+    <div class="blurb contact-blurb">
+        <div class="contact-blurb-text">
+            <h2>Contact Us</h2>
+            <p>Google form for contact? or some sort of scheduling thing with your schedule</p>
+            <ul>
+                <li>Email:</li>
+                <li>Phone:</li>
+            </ul>
+        </div>
 
-        <ul>
-            <li>Email:</li>
-            <li>Phone:</li>
-        </ul>
-
-        <img src="" alt="">
+        <img src="assets/samplephoto.jpg" alt="" id="contact-photo">
     </div>
 
-    <div class="about-blurb">
-        <img src="" alt="">
+    <!--
+
+    <div class="blurb about-blurb">
+        <img src="" alt="about photo">
 
         <h2>About</h2>
 
@@ -53,5 +62,6 @@
     <footer>
         <p>coded by <a>seti</a></p>
     </footer>
+-->
 </body>
 </html>

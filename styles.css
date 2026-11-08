@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+/* navbar */
+nav {
+    background-color: red;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    /*how to get it to touch top? */
+    margin-top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 14px 16px;
+}
+
+nav ul li a:hover {
+    font-style: oblique;
+}
+
+/* blurbs */
+.blurb {
+    margin: auto;
+    width: 75%;
+    display: block;
+}
+
+.service-blurb-text {
+    float: right;
+    margin-left: 10px;
+    padding-left: none;
+}
+
+#service-photo {
+    float:left;
+    width: 250px;
+    height: 200px;
+}
+
+.contact-blurb-text {
+    float: left;
+    margin-left: 10px;
+    padding-left: none;
+}
+
+#contact-photo {
+    float: right;
+    width: 250px;
+    height: 200px;
+}
